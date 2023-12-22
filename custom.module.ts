@@ -5,13 +5,10 @@ import { FormsModule } from '@angular/forms';
 import { TestComponent } from './test';
 
 
-const FrameworkComponents = [
-  
-]
+
 
 @NgModule({
   declarations: [
-    FrameworkComponents,
   ],
   imports: [
     HttpClientModule,
@@ -24,4 +21,4 @@ const FrameworkComponents = [
     TestComponent
   ]
 })
-export class FrameworkModule { }
+export class CustomModule { }
