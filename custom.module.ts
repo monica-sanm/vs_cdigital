@@ -9,6 +9,7 @@ import { TestComponent } from './test';
 
 @NgModule({
   declarations: [
+    TestComponent
   ],
   imports: [
     HttpClientModule,
