@@ -15,6 +15,5 @@ export class TestComponent implements OnInit{
   ngOnInit(): void {
     console.log("Que tengo en el componente??");
     console.log(this.component);
-    this.component.loaded = false;
   }
 }
