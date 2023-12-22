@@ -8,4 +8,5 @@ import { Component, Input } from '@angular/core';
 export class TestComponent {
   a:string = "Hola";
   @Input() aplicacion:string = "";
+  @Input() component:any;
 }
