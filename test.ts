@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./test.component.less']
 })
 export class TestComponent {
-
+  const a:string = "Hola";
 }
