@@ -14,7 +14,6 @@ const FrameworkComponents = [
     FrameworkComponents,
   ],
   imports: [
-    BrowserModule,
     HttpClientModule,
     FormsModule,
     CommonModule,
